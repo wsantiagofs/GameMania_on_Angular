@@ -1,0 +1,108 @@
+<nav class="menubar1">
+    <div class="backmenu">
+        <div class="icon-user icons1">
+        <div id="icons">
+            <a href="https://www.facebook.com"><img src="\assets\Images\icons\logo-facebook.svg" alt="facebook"></a>
+            <a href="https://www.twitter.com"><img src="\assets\Images\icons\logo-twitter.svg" alt="twitter"></a>
+            <a href="https://www.instagram.com/william.sant/"><img src="\assets\Images\icons\logo-instagram.svg" alt="instagram"></a>
+        </div>
+    </div>
+        <div class="icons">
+            <div class="icon-user icons2">
+                    <a href="#"><img src="\assets\Images\icons\headset.svg" alt="headset"></a>
+                <a href="#"><img src="\assets\Images\icons\person-circle.svg" alt="Área do Usuário"></a>
+                <a href="#"><img src="\assets\Images\icons\cart.svg" alt="Carrinho"></a>
+            </div>
+        </div>
+    </div>
+</nav>
+<!--BARRA DE MENU-->
+<div class="menubar2">
+    <div class="logo">
+        <a routerLink=""><img src="\assets\Images\Logo-GameMania.png" alt="Game Mania Home"></a>
+    </div>
+    <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
+        <button class="btn-search" type="submit"><img src="\assets\Images\icons\search-outline.svg" alt="Buscar"></button>
+      </form>
+    <div class="log-cad">
+        <a routerLink="/login"><button type="button" class="btn btn-primary btn-lg">CADASTRE-SE</button></a>
+        <a id="loginb" routerLink="/login">clique aqui para fazer login</a>
+    </div>
+</div>
+<!--BARRA DE CATEGORIAS-->
+<div class="categoria">
+    <!--DROPDOWN-->
+    <div class="dropdown drop_desktop_icon">
+        <button><span class="icon">
+            <img src="\assets\Images\icons\menu-outline.svg" alt="Menu">
+        </span>
+        <span class="text">Compre por Departamento</span></button>
+        <ul>
+            <li>
+                <a href="#">
+                    <span class="text">
+                        Hardware
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="text">
+                        Computadores
+                    </span>
+                </a>
+             </li>
+            <li>
+                <a href="#">
+                    <span class="text">
+                        Games
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="text">
+                        Periféricos
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="text">
+                        Smartphones
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="text">
+                        Smart Home
+                    </span>
+                </a>
+            </li>
+            <li class="mobile_drop_items">
+                <a href="../login/login.component.html">
+                    <span class="text">
+                        Fazer Login
+                    </span>
+                </a>
+            </li>
+            <li class="mobile_drop_items">
+                <a href="../login/login.component.html">
+                    <span class="text">
+                        Cadastrar-se
+                    </span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <button class="button" id="disable_mobile" href="#lancamentos">
+        LANÇAMENTOS</button>
+    <button class="button" id="disable_mobile" href="#destaques">
+        DESTAQUES</button>
+    <button class="button" id="disable_mobile" href="#perifericos">
+        PERIFÉRICOS</button>
+    <button class="button" id="disable_mobile" href="#pc-gamer">
+        PC GAMER</button>
+</div>

@@ -1,0 +1,205 @@
+/*                    ---BANNER---                  */
+
+
+#bannerdiv{
+    width: 100%;
+    height: 3%;
+    background-color: #276BA2;
+    color: #276BA2;
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+    cursor: default;
+}
+
+/*                    ---MAIN SITE---                  */
+
+#backbody{
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    background-image: linear-gradient(116.09deg, #242f3f 1.32%, #050505 99.98%, rgba(36, 32, 32, 0.166667) 99.99%, rgba(33, 29, 29, 0) 100%);
+}
+
+/*                    ---CONTAINER PRODUTO---                  */
+
+.btn-primary{
+    height: 65px;
+    background: #276BA2;
+    font-size: clamp(1.25em, 1.10em, 1em);
+    border-radius: 35px;
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+    padding: 5px 20px;
+}
+
+.btn-primary:hover{
+    background-color: #114e80;
+}
+
+.title{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+/* .item-a{
+    padding-left: 35px;
+} */
+
+.tbox{
+    width: 240px;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-left: 10%;
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+.slide-img{
+    height: 270px;
+    position: relative;
+}
+
+.slide-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+
+.detail-box{
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    text-decoration: none;
+    background-color: #114e80;
+    justify-content: space-between;
+    padding: 10px 5px;
+}
+
+.btn-comprar{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.type{
+    display:flex;
+    flex-direction: column;
+}
+
+.type a{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.81rem;
+}
+
+.type span{
+    color: #ABA5A5;
+    font-size: 0.9rem;
+}
+
+#n-price{
+    color: #0FB600;
+    font-size: 1.3rem;
+}
+
+.buy-btn{
+    text-decoration: none;
+    background: #063d69;
+    color: white;
+    padding: 5px;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.mainbox1.l1{
+    color: white;
+    font-size: 0.81em;
+}
+
+.mainbox1.l2{
+    color: #ABA5A5;
+    font-size: 0.9em;
+}
+
+.mainbox1.l3{
+    color: #0FB600;
+    font-size: 1.3em;
+}
+
+/*                    ---BANNER E DEPARTAMENTOS---                  */
+
+.title1{
+    display: flex;
+    padding-top: 40px;
+    padding-right: 8%;
+    justify-content: center;
+    padding-bottom: 50px;
+    justify-items: center;
+}
+
+.title1 button{
+    border: none;
+    font-size: 20;
+    background: #276BA2;
+    color: white;
+    padding: 5px 10%;
+}
+
+.container2{
+    display: flex;
+    padding-left: 12%;
+    padding-top: 15;
+    justify-content: center;
+}
+
+.imgdep{
+    width: 900px;
+    height: 500px;
+    margin-bottom: 50;
+}
+
+#depimg{
+    width: 200px;
+    height: 200px;
+}
+
+.bannerpromo{
+    padding-right: 9%;
+    margin-top: 40px;
+}
+
+/*             Código de responsividade            */
+
+@media screen and (max-width: 1000px) {
+    
+    .container2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+    }
+    
+    .bannerpromo{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1310px) {
+    .img-d3{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .img-d2{
+        display: none;
+    }
+
+    .imgdep{
+        width: 500px;
+        height: 500px;
+    }
+}
