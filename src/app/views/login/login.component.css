@@ -12,11 +12,10 @@
 #titlelogin{
     display: flex;
     align-items: flex-end;
+    justify-content: center;
     color: white;
-    padding-top: 3%;
-    padding-left: 8%;
+    padding-top: 4%;
     font-size: 15px;
-    position: absolute;
 }
 
 #arealogin,
@@ -121,4 +120,9 @@
         height: 55px;
         margin-top: 20px;
     }
+}
+
+.msgErro{
+    color: red;
+    position: absolute;
 }

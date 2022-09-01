@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "email": "william@email.com",
+      "password": "$2a$10$.gXUvFzL7DemNgdAm3UT8.jDCPKbU3P5L5jaFYTO5zDE87hY0IAeS",
+      "nome": "William",
+      "id": 1
+    },
+    {
+      "email": "junior@email.com",
+      "password": "$2a$10$odE8i/IeU2TD.CdtuIFrOOCwG1zAZoXYzunRw1bvIDWXyTD6CUxL.",
+      "nome": "edevaldo",
+      "id": 2
+    }
+  ]
+}

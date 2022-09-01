@@ -8,6 +8,10 @@ import { NgForm } from '@angular/forms';
 })
 export class FooterComponent implements OnInit {
 
+  clickCadastro(){
+    alert('Cadastro concluído!')
+  }
+
   constructor() { }
 
   ngOnInit(): void {
